@@ -1,0 +1,5 @@
+file(GLOB_RECURSE LIB_SOURCES "*.h")
+add_library(SLAE_methods INTERFACE)
+target_sources(SLAE_methods INTERFACE ${LIB_SOURCES})
+target_include_directories(SLAE_methods INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+set_target_properties(SLAE_methods PROPERTIES LINKER_LANGUAGE CXX)
