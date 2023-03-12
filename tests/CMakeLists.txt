@@ -1,6 +1,6 @@
 add_subdirectory(googletest)
 
-include_directories(${gtest_SOURCE_DIR}/src
+include_directories(googletest/googletest/src
         ../src/tridiag_solver ../src/dense_matrix
         ../src/tridiag_matrix ../src/gauss_seidel_method
         ../src/csr_matrix ../src/jacobi_method
