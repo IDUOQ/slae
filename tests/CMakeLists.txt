@@ -1,6 +1,6 @@
-add_subdirectory(googletest)
+add_subdirectory(googltest)
 
-include_directories(googletest/googletest/src
+include_directories(googltest/googletest/src
         ../src/tridiag_solver ../src/dense_matrix
         ../src/tridiag_matrix ../src/gauss_seidel_method
         ../src/csr_matrix ../src/jacobi_method
